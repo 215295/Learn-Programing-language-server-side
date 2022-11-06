@@ -24,7 +24,7 @@ const Courses = () => {
              }
       </Col>
            
-           <Col lg="2" sm="12 mt-3">
+           <Col lg="5" sm="12 mt-3">
 
                     {
                         courses.map(coues =>  <div key ={coues.id}>
