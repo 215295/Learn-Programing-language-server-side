@@ -17,7 +17,7 @@ const Details = () => {
     return (
         
          <Container className='mt-5' > 
-         <Button className='mx-auto' onClick={reactPdfPrint}>PDF</Button>
+         <Button className='mx-auto btn-success' onClick={reactPdfPrint}>PDF</Button>
          <Row>
     
       <Col lg="8" sm="12 "  className='mx-auto' ref={componentRef}
@@ -30,7 +30,7 @@ const Details = () => {
   <div className="card-body">
     <h5 className="card-title"> {name} </h5>
     <p className="card-text">  {discripetion} </p>
-    <Link to={`/checkout/${id}`} className="btn btn-primary">Get  Access</Link>
+    <Link to={`/checkout/${id}`} className="btn btn-success">Get  Access</Link>
   </div>
 </div>
         </div>
