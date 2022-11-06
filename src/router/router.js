@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
       {path:'/blog', element:<Blog></Blog>},
       {path:'/register', element:<Register></Register>},
       {path:"/login", element:<Login></Login>},
-
+// git asss
       {
         path: '/details/:id', element:  <Details></Details> ,
 
@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
           path:'/checkout/:id', element: <PrivateRouter> <Checkout></Checkout> </PrivateRouter>,
           loader: ({ params }) => fetch(`https://learn-news-server.vercel.app/courses/${params.id}`)
         },
-// alkasflafkaflaf
+
     
         
 
