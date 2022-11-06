@@ -42,10 +42,10 @@ const Navber = () => {
             
                  <> 
                
-                  <Image
+                  <Image className='pt-4 '
 
                  roundedCircle
-                style={{width:'40px'}}
+                style={{width:'30px'}}
                   title ={user?.displayName}
                 src={user?.photoURL}
                
@@ -53,7 +53,7 @@ const Navber = () => {
               
             </Image> 
             
-            <Button onClick={logOut}  variant="info"> logOut</Button>
+            <Button onClick={logOut}  variant="light" > logOut</Button>
             </>
                
                       
