@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
       {path:'/blog', element:<Blog></Blog>},
       {path:'/register', element:<Register></Register>},
       {path:"/login", element:<Login></Login>},
-// git asss
+
       {
         path: '/details/:id', element:  <Details></Details> ,
 
