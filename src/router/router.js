@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
           path:'/checkout/:id', element: <PrivateRouter> <Checkout></Checkout> </PrivateRouter>,
           loader: ({ params }) => fetch(`https://learn-news-server.vercel.app/courses/${params.id}`)
         },
-
+// alkasflafkaflaf
     
         
 
