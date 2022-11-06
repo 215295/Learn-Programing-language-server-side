@@ -14,7 +14,7 @@ const Checkout = () => {
 
          const handlar = ()=>{
             setResive(true)
-              toast.success( 'WelCome my dear sir...',  resive)
+              toast.success( 'Welcome to our course, sir...',  resive)
          }
     return (
                
