@@ -26,7 +26,7 @@ const Checkout = () => {
 
 <div>
 <div className="card" >
-<img src={img} className="card-img-top" alt="..."/>
+<img src={img} className="card-img-top W-100%" style={{ width: '100%' ,height:"40" }} alt="..."/>
 <div className="card-body">
 <h5 className="card-title">{name}</h5>
 <p className="card-text">
