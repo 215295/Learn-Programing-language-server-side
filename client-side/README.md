@@ -1,14 +1,14 @@
 
 # Website Name Learning Pragramming
- ##live website link : https://follow-our-direction.web.app
+ ## Webwite live and netlify link : (https://learn-news-server.vercel.app/) 
 
  #  Website description : 
-    First install react app and create react-router
-    Firebase creates new projects
-    The framework uses react-bootstrap
-    Use design hot toast and icon hero icon
-    The server site uses vercel
-    Features: Actually this site is about programming languages.
+   * First install react app and create react-router
+   * Firebase creates new projects
+   * The framework uses react-bootstrap
+   * Use design hot toast and icon hero icon
+   * The server site uses vercel
+   * Features: Actually this site is about programming        languages.
 
 
 # Getting Started with Create React App
